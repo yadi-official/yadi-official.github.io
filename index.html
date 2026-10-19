@@ -1,8 +1,8 @@
 <!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>YADI 야디 | 공간을 완성하는 마지막 조각</title>
 <meta name="description" content="시계, 화병, 쿠션, 향꽂이. 작은 오브제 하나로 공간의 무드를 바꾸는 YADI 공식 컬렉션. 공식몰 · 스마트스토어 · 오늘의집에서 만나보세요.">
-<meta property="og:title" content="YADI 야디 | 공간을 완성하는 마지막 조각"><meta property="og:description" content="작은 오브제 하나로 공간의 무드를 바꾸는 YADI 공식 컬렉션"><meta property="og:image" content="clock_midnight.jpg"><meta name="theme-color" content="#C00008">
-<link rel="preconnect" href="https://cdn.jsdelivr.net"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta property="og:title" content="YADI 야디 | 공간을 완성하는 마지막 조각"><meta property="og:description" content="작은 오브제 하나로 공간의 무드를 바꾸는 YADI 공식 컬렉션"><meta property="og:image" content="pro_midnight.jpg"><meta name="theme-color" content="#C00008">
+<link rel="icon" href="logo_mark.png"><link rel="preconnect" href="https://cdn.jsdelivr.net"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap">
 <style>
@@ -28,7 +28,7 @@ img{display:block;max-width:100%}a{color:inherit;text-decoration:none}button{fon
 header.top{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid var(--line)}
 .hd{display:flex;align-items:center;justify-content:space-between;height:68px}
 .logo{display:flex;align-items:center;gap:10px}
-.logo b{font-family:var(--fs);font-size:29px;letter-spacing:.08em;color:var(--red);font-weight:600;line-height:1}
+.logo img{height:50px;width:auto}
 .logo small{font-size:9.5px;letter-spacing:.2em;color:var(--mute);border-left:1px solid var(--line);padding-left:10px;line-height:1.3;display:none}
 nav.main{display:none;gap:30px;font-size:15px;font-weight:600}
 nav.main a{position:relative;padding:6px 0}
@@ -208,7 +208,7 @@ nav.main a:hover::after{width:100%}
 .rc .pn{font-size:12px;font-weight:700;color:var(--red);letter-spacing:.06em}
 .rfoot{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-top:24px;color:var(--mute);font-size:14px}
 /* band */
-.band{background:linear-gradient(100deg,#E9F1F9,#D5E6F4 55%,#E9F1F9);overflow:hidden;padding:clamp(34px,5vw,64px) 0;border-block:1px solid var(--line)}.band .bt{display:flex;align-items:center;gap:34px;white-space:nowrap;width:max-content;animation:mq 40s linear infinite;font-family:var(--fs);font-size:clamp(34px,5.4vw,72px);letter-spacing:.14em;font-weight:500;color:transparent;-webkit-text-stroke:1px #2D76D6}.band .bt i{width:10px;height:10px;border-radius:50%;background:var(--red);flex:none}.band .bt span{flex:none}
+.band{background:linear-gradient(100deg,#EAF1F8,#D8E8F5 55%,#EAF1F8);overflow:hidden;padding:clamp(22px,3vw,40px) 0;border-block:1px solid var(--line)}.band .bt{display:flex;align-items:center;gap:clamp(40px,6vw,90px);white-space:nowrap;width:max-content;animation:mq 46s linear infinite}.band .bt img{height:clamp(86px,12vw,150px);width:auto;flex:none}.band .bt i{width:9px;height:9px;border-radius:50%;background:var(--red);flex:none}
 /* poster wall */
 .pw{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
 @media(min-width:900px){.pw{grid-template-columns:repeat(3,1fr);gap:16px}}
@@ -218,7 +218,7 @@ nav.main a:hover::after{width:100%}
 .po .t{font-size:10.5px;letter-spacing:.2em;font-weight:700;display:flex;justify-content:space-between}
 .po .big{font-family:var(--fs);font-weight:500;line-height:1;letter-spacing:.02em}
 .po .s{font-size:12px;letter-spacing:.14em}
-.po-red{background:var(--red);color:#fff}.po-red .big{font-size:clamp(62px,12vw,150px)}
+.po-red{background:var(--red);color:#fff}.po .plogo{width:88%;align-self:center}.po-red .big{font-size:clamp(62px,12vw,150px)}
 .po-sky{background:var(--sky);color:var(--navy)}.po-sky .big{font-size:clamp(26px,3.8vw,44px);font-family:var(--ff);font-weight:800;line-height:1.18;letter-spacing:-.03em}
 .po-navy{background:var(--navy);color:#fff}.po-navy .big{font-size:clamp(40px,6.4vw,70px);color:transparent;-webkit-text-stroke:1.4px var(--sky)}
 .po-cream{background:var(--cream);color:var(--ink);border:1px solid var(--line)}.po-cream .big{font-size:clamp(32px,5vw,56px)}.po-cream .big em{color:var(--red)}
@@ -254,6 +254,7 @@ nav.main a:hover::after{width:100%}
 footer{background:var(--navy);color:#B7C3D6;padding:64px 0 120px;font-size:13px}
 .ft{display:grid;gap:36px}
 @media(min-width:900px){.ft{grid-template-columns:1.2fr 1fr 1fr;gap:60px}footer{padding-bottom:64px}}
+footer .flogo{width:200px;max-width:60%;display:block;margin:0 0 18px -8px}
 footer .fl{font-family:var(--fs);font-size:36px;color:#fff;letter-spacing:.1em;font-weight:500;line-height:1}
 footer .tg{margin:10px 0 20px;letter-spacing:.2em;font-size:11px;color:var(--sky)}
 footer h4{color:#fff;font-size:13px;letter-spacing:.14em;margin-bottom:14px}
@@ -279,8 +280,8 @@ footer li{list-style:none;margin-bottom:8px}footer a:hover{color:#fff}
  .chips-nav a{padding:10px 15px;font-size:13.5px}
  .slides{height:clamp(660px,calc(100svh - 110px),740px)}
  .slide::after{display:none}
- .slide .pn{display:block;position:absolute;left:0;right:0;bottom:0;top:auto;height:51%}
- .slide .ph{inset:0 0 auto 0;height:49%}
+ .slide .pn{display:block;position:absolute;left:0;right:0;bottom:0;top:auto;height:46%}
+ .slide .ph{inset:0 0 auto 0;height:54%}
  .slide .ph img{transform:none}
  .slide .tx{left:18px;right:18px;bottom:70px}
  .slide h1,.slide h2.hh{font-size:clamp(34px,9.6vw,44px)}
@@ -319,13 +320,13 @@ footer li{list-style:none;margin-bottom:8px}footer a:hover{color:#fff}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none}.ann .track{animation:none}.slide .ph img{transition:none}}
 </style></head><body>
 <div class="ann"><div class="track"><span>WELCOME · 공식몰 신규 가입 5,000원 쿠폰</span><span>SPACE TIME CLOCK · 129,000원</span><span>NEW · MIDNIGHT 출시</span><span>공식몰 · 스마트스토어 · 오늘의집</span><span>WELCOME · 공식몰 신규 가입 5,000원 쿠폰</span><span>SPACE TIME CLOCK · 129,000원</span><span>NEW · MIDNIGHT 출시</span><span>공식몰 · 스마트스토어 · 오늘의집</span><span>WELCOME · 공식몰 신규 가입 5,000원 쿠폰</span><span>SPACE TIME CLOCK · 129,000원</span><span>NEW · MIDNIGHT 출시</span><span>공식몰 · 스마트스토어 · 오늘의집</span><span>WELCOME · 공식몰 신규 가입 5,000원 쿠폰</span><span>SPACE TIME CLOCK · 129,000원</span><span>NEW · MIDNIGHT 출시</span><span>공식몰 · 스마트스토어 · 오늘의집</span></div></div>
-<header class="top"><div class="wrap hd"><a class="logo" href="#top"><b>YADI</b><small>IN ORDER,<br>A PULSE OF FREEDOM</small></a>
+<header class="top"><div class="wrap hd"><a class="logo" href="#top" aria-label="YADI"><img src="logo_mark.png" alt="YADI" width="69" height="46"></a>
 <nav class="main"><a href="#new">NEW</a><a href="#shop" data-f="best">BEST</a><a href="#clock">CLOCK</a><a href="#shop" data-f="vase">VASE</a><a href="#mood">STYLING</a><a href="#review">REVIEW</a><a href="#story">STORY</a><a href="#poster">POSTER</a></nav>
 <a class="cta" href="#buy">구매하기</a></div>
 <div class="chips-nav"><a href="#new">NEW</a><a href="#shop" data-f="best">BEST</a><a href="#clock">시계</a><a href="#shop" data-f="vase">화병</a><a href="#mood">스타일링</a><a href="#review">후기</a><a href="#story">브랜드</a><a href="#poster">포스터</a></div></header>
 <main id="top">
-<section class="hero" id="new"><div class="slides"><div class="slide on"><div class="pn pn-navy"></div><div class="ph"><img src="clock_order.jpg" alt="" style="object-position:center 45%"></div>
- <div class="tx"><span class="eyebrow">BEST · SPACE TIME CLOCK</span><h1>SPACE<br>TIME</h1><p class="ko">겹겹이 이어지는 실버 링, 가장 조용한 질서.</p><p class="pr"><b>129,000원</b> <s>159,000원</s></p><div class="btns"><a class="btn btn-red" href="https://www.yadi.co.kr/product/detail.html?product_no=30&utm_source=instagram&utm_medium=bio&utm_campaign=yadi_landing">시계 보러가기 <span>→</span></a><a class="btn btn-ol" href="#shop">전체 컬렉션 <span>→</span></a></div></div></div>
+<section class="hero" id="new"><div class="slides"><div class="slide on"><div class="pn pn-navy"></div><div class="ph"><img src="hero_clock.jpg" alt="SPACE TIME CLOCK MIDNIGHT" style="object-position:70% 62%"></div>
+ <div class="tx"><span class="eyebrow">NEW · SPACE TIME CLOCK</span><h1>MIDNIGHT</h1><p class="ko">깊어진 가을의 무드, 블랙과 실버가 만드는 차분한 균형.</p><p class="pr"><b>129,000원</b> <s>159,000원</s></p><div class="btns"><a class="btn btn-red" href="https://www.yadi.co.kr/product/detail.html?product_no=32&utm_source=instagram&utm_medium=bio&utm_campaign=yadi_landing">미드나잇 보러가기 <span>→</span></a><a class="btn btn-ol" href="#shop">전체 컬렉션 <span>→</span></a></div></div></div>
 <div class="slide"><div class="pn pn-red"></div><div class="ph"><img src="cushion.jpg" alt="" style="object-position:center 55%" loading="lazy"></div>
  <div class="tx"><span class="eyebrow">BEST · SOFT RELIC</span><h2 class="hh">SOFT<br>RELIC</h2><p class="ko">소파 위에 놓는 은빛 화병. 화병 모양 쿠션과 키링 세트.</p><p class="pr"><b>35,100원</b> <s>39,000원</s></p><div class="btns"><a class="btn btn-wh" href="https://www.yadi.co.kr/product/detail.html?product_no=31&utm_source=instagram&utm_medium=bio&utm_campaign=yadi_landing" target="_blank" rel="noopener">쿠션 보러가기 <span>→</span></a><a class="btn btn-ol" href="#shop">전체 컬렉션 <span>→</span></a></div></div></div><div class="slide light"><div class="pn pn-sky"></div><div class="ph"><img src="ez1.jpg" alt="" style="object-position:center 50%" loading="lazy"></div>
  <div class="tx"><span class="eyebrow">BEST · THE ORCHID</span><h2 class="hh">THE<br>ORCHID</h2><p class="ko">꽃이 없어도, 꽃과 함께해도. 공간에 남는 하나의 오브제.</p><p class="pr"><b>89,000원</b> · 후기 평점 5.0</p><div class="btns"><a class="btn btn-dk" href="https://www.yadi.co.kr/product/detail.html?product_no=13&utm_source=instagram&utm_medium=bio&utm_campaign=yadi_landing" target="_blank" rel="noopener">더 오키드 보러가기 <span>→</span></a><a class="btn btn-olk" href="#shop">전체 컬렉션 <span>→</span></a></div></div></div></div><div class="hctl"><div class="dots"><button class="on" aria-label="1"><i></i></button><button aria-label="2"><i></i></button><button aria-label="3"><i></i></button></div><div class="arr"><button id="prev" aria-label="이전">←</button><button id="next" aria-label="다음">→</button></div></div></section>
@@ -333,15 +334,15 @@ footer li{list-style:none;margin-bottom:8px}footer a:hover{color:#fff}
 <section class="sec chan" id="buy"><div class="wrap"><div class="sec-h reveal"><div><span class="eyebrow" style="color:var(--red)">WHERE TO BUY</span><h2 style="margin-top:10px">어디서 만날까요?</h2><p>편한 곳에서 YADI를 만나보세요. 세 곳 모두 정식 판매처예요.</p></div></div>
 <div class="cgrid">
 <a class="ccard main reveal" href="https://www.yadi.co.kr/?utm_source=instagram&utm_medium=bio&utm_campaign=yadi_landing" target="_blank" rel="noopener" data-track="channel_official"><img src="hero2.jpg" alt="" loading="lazy"><span class="tag">OFFICIAL</span><h3>YADI 공식몰</h3><p>전 컬렉션을 한곳에서 · 신규 가입 5,000원 쿠폰</p><span class="go">공식몰 바로가기 →</span></a>
-<a class="ccard reveal" href="https://naver.me/5huDnoLU" target="_blank" rel="noopener" data-track="channel_naver"><img src="clock_order.jpg" alt="" loading="lazy" style="object-position:center 40%"><span class="tag g">NAVER</span><h3>스마트스토어</h3><p>네이버 아이디로 간편하게</p><span class="go">바로가기 →</span></a>
+<a class="ccard reveal" href="https://naver.me/5huDnoLU" target="_blank" rel="noopener" data-track="channel_naver"><img src="pro_order.jpg" alt="" loading="lazy" style="object-position:center 40%"><span class="tag g">NAVER</span><h3>스마트스토어</h3><p>네이버 아이디로 간편하게</p><span class="go">바로가기 →</span></a>
 <a class="ccard reveal" href="https://ozip.me/drGWsXr" target="_blank" rel="noopener" data-track="channel_ohouse"><img src="cushion.jpg" alt="" loading="lazy"><span class="tag g">오늘의집</span><h3>오늘의집</h3><p>집 꾸미기 사진과 함께 구경하기</p><span class="go">바로가기 →</span></a>
 </div></div></section>
 
-<section class="cats"><div class="wrap"><div class="catrow"><a class="cat on" href="#shop" data-f="all"><div class="c"><img src="clock_cosmic.jpg" alt="" loading="lazy"></div>전체</a><a class="cat" href="#shop" data-f="new"><div class="c"><img src="clock_midnight.jpg" alt="" loading="lazy"></div>신상</a><a class="cat" href="#shop" data-f="best"><div class="c"><img src="orchid.jpg" alt="" loading="lazy"></div>베스트</a><a class="cat" href="#shop" data-f="clock"><div class="c"><img src="clock_order.jpg" alt="" loading="lazy"></div>시계</a><a class="cat" href="#shop" data-f="vase"><div class="c"><img src="frostlily.jpg" alt="" loading="lazy"></div>화병</a><a class="cat" href="#shop" data-f="cushion"><div class="c"><img src="cushion.jpg" alt="" loading="lazy"></div>쿠션</a><a class="cat" href="#shop" data-f="incense"><div class="c"><img src="shell.jpg" alt="" loading="lazy"></div>향꽂이</a></div></div></section>
+<section class="cats"><div class="wrap"><div class="catrow"><a class="cat on" href="#shop" data-f="all"><div class="c"><img src="pro_cosmic.jpg" alt="" loading="lazy"></div>전체</a><a class="cat" href="#shop" data-f="new"><div class="c"><img src="pro_midnight.jpg" alt="" loading="lazy"></div>신상</a><a class="cat" href="#shop" data-f="best"><div class="c"><img src="orchid.jpg" alt="" loading="lazy"></div>베스트</a><a class="cat" href="#shop" data-f="clock"><div class="c"><img src="pro_order.jpg" alt="" loading="lazy"></div>시계</a><a class="cat" href="#shop" data-f="vase"><div class="c"><img src="frostlily.jpg" alt="" loading="lazy"></div>화병</a><a class="cat" href="#shop" data-f="cushion"><div class="c"><img src="cushion.jpg" alt="" loading="lazy"></div>쿠션</a><a class="cat" href="#shop" data-f="incense"><div class="c"><img src="shell.jpg" alt="" loading="lazy"></div>향꽂이</a></div></div></section>
 
 <section class="sec" id="shop" style="padding-top:44px"><div class="wrap"><div class="sec-h reveal"><div><span class="eyebrow" style="color:var(--red)">COLLECTION</span><h2 style="margin-top:10px">YADI 전체 컬렉션</h2><p id="count">12개의 오브제</p></div><a class="more" href="https://www.yadi.co.kr/?utm_source=instagram&utm_medium=bio&utm_campaign=yadi_landing" target="_blank" rel="noopener">공식몰 전체보기</a></div>
 <div class="pgrid" id="pgrid"><a class="pcard reveal" data-tags="new clock" href="https://www.yadi.co.kr/product/detail.html?product_no=32&utm_source=instagram&utm_medium=bio&utm_campaign=yadi_landing" target="_blank" rel="noopener" data-track="product_midnight">
-  <div class="pimg"><img src="clock_midnight.jpg" alt="스페이스 타임 시계 · 미드나잇" loading="lazy" width="800" height="1000">
+  <div class="pimg"><img src="pro_midnight.jpg" alt="스페이스 타임 시계 · 미드나잇" loading="lazy" width="800" height="1000">
    <div class="pbadges"><span class="b b-new">NEW</span><span class="b b-sale">19%</span></div>
    <span class="pgo">공식몰에서 보기 <i>→</i></span></div>
   <div class="pinfo"><div class="pen">SPACE TIME CLOCK · MIDNIGHT</div><h3>스페이스 타임 시계 · 미드나잇</h3><p class="pdesc">블랙 다이얼, 투명 돔</p>
@@ -356,17 +357,17 @@ footer li{list-style:none;margin-bottom:8px}footer a:hover{color:#fff}
    <span class="pgo">공식몰에서 보기 <i>→</i></span></div>
   <div class="pinfo"><div class="pen">SOFT RELIC CUSHION SET</div><h3>소프트 렐릭 쿠션 세트</h3><p class="pdesc">화병 모양 실버 쿠션 + 키링</p>
    <div class="pprice"><s>39,000원</s><b>35,100원</b></div></div></a><a class="pcard reveal" data-tags="best clock" href="https://www.yadi.co.kr/product/detail.html?product_no=30&utm_source=instagram&utm_medium=bio&utm_campaign=yadi_landing" target="_blank" rel="noopener" data-track="product_order">
-  <div class="pimg"><img src="clock_order.jpg" alt="스페이스 타임 시계 · 오더" loading="lazy" width="800" height="1000">
+  <div class="pimg"><img src="pro_order.jpg" alt="스페이스 타임 시계 · 오더" loading="lazy" width="800" height="1000">
    <div class="pbadges"><span class="b b-best">BEST</span><span class="b b-sale">19%</span></div>
    <span class="pgo">공식몰에서 보기 <i>→</i></span></div>
   <div class="pinfo"><div class="pen">SPACE TIME CLOCK · ORDER</div><h3>스페이스 타임 시계 · 오더</h3><p class="pdesc">겹겹이 이어지는 실버 링</p>
    <div class="pprice"><s>159,000원</s><b>129,000원</b></div></div></a><a class="pcard reveal" data-tags="clock" href="https://www.yadi.co.kr/product/detail.html?product_no=29&utm_source=instagram&utm_medium=bio&utm_campaign=yadi_landing" target="_blank" rel="noopener" data-track="product_cosmic">
-  <div class="pimg"><img src="clock_cosmic.jpg" alt="스페이스 타임 시계 · 코스믹" loading="lazy" width="800" height="1000">
+  <div class="pimg"><img src="pro_cosmic.jpg" alt="스페이스 타임 시계 · 코스믹" loading="lazy" width="800" height="1000">
    <div class="pbadges"><span class="b b-sale">19%</span></div>
    <span class="pgo">공식몰에서 보기 <i>→</i></span></div>
   <div class="pinfo"><div class="pen">SPACE TIME CLOCK · COSMIC</div><h3>스페이스 타임 시계 · 코스믹</h3><p class="pdesc">보라와 옐로의 우주빛 다이얼</p>
    <div class="pprice"><s>159,000원</s><b>129,000원</b></div></div></a><a class="pcard reveal" data-tags="clock" href="https://www.yadi.co.kr/product/detail.html?product_no=28&utm_source=instagram&utm_medium=bio&utm_campaign=yadi_landing" target="_blank" rel="noopener" data-track="product_sunset">
-  <div class="pimg"><img src="clock_sunset.jpg" alt="스페이스 타임 시계 · 선셋" loading="lazy" width="800" height="1000">
+  <div class="pimg"><img src="pro_sunset.jpg" alt="스페이스 타임 시계 · 선셋" loading="lazy" width="800" height="1000">
    <div class="pbadges"><span class="b b-sale">19%</span></div>
    <span class="pgo">공식몰에서 보기 <i>→</i></span></div>
   <div class="pinfo"><div class="pen">SPACE TIME CLOCK · SUNSET</div><h3>스페이스 타임 시계 · 선셋</h3><p class="pdesc">노을처럼 번지는 퍼플 레드</p>
@@ -402,7 +403,7 @@ footer li{list-style:none;margin-bottom:8px}footer a:hover{color:#fff}
   <div class="pinfo"><div class="pen">MERCURY HELIX</div><h3>머큐리 헬릭스</h3><p class="pdesc">은빛으로 소용돌이치는 결</p>
    <div class="pprice"><b>69,000원</b></div></div></a></div></div></section>
 
-<section class="sec feat" id="clock"><div class="wrap"><div class="fshow reveal"><img class="" data-k="order" src="clock_order.jpg" alt="스페이스 타임 시계 오더" loading="lazy"><img class="" data-k="yadi" src="clock_yadi.jpg" alt="스페이스 타임 시계 야디" loading="lazy"><img class="" data-k="sunset" src="clock_sunset.jpg" alt="스페이스 타임 시계 선셋" loading="lazy"><img class="" data-k="cosmic" src="clock_cosmic.jpg" alt="스페이스 타임 시계 코스믹" loading="lazy"><img class="on" data-k="midnight" src="clock_midnight.jpg" alt="스페이스 타임 시계 미드나잇" loading="lazy"><span class="fl" id="flabel">MIDNIGHT</span></div>
+<section class="sec feat" id="clock"><div class="wrap"><div class="fshow reveal"><img class="" data-k="order" src="pro_order.jpg" alt="스페이스 타임 시계 오더" loading="lazy"><img class="" data-k="yadi" src="clock_yadi.jpg" alt="스페이스 타임 시계 야디" loading="lazy"><img class="" data-k="sunset" src="pro_sunset.jpg" alt="스페이스 타임 시계 선셋" loading="lazy"><img class="" data-k="cosmic" src="pro_cosmic.jpg" alt="스페이스 타임 시계 코스믹" loading="lazy"><img class="on" data-k="midnight" src="pro_midnight.jpg" alt="스페이스 타임 시계 미드나잇" loading="lazy"><span class="fl" id="flabel">MIDNIGHT</span></div>
 <div class="reveal"><span class="eyebrow">FLAGSHIP · SPACE TIME CLOCK</span><h2>시간을<br>오브제로.</h2><p class="lead">다섯 가지 무드, 하나의 시계. 책상 위에도, 선반 위에도, 벽에도 어울리는 2WAY 오브제 시계예요.</p>
 <div class="sw" id="sw"><button class="" data-k="order" data-no="30" data-d="겹겹이 이어지는 실버 링, 가장 조용한 질서." data-n="ORDER">ORDER</button><button class="" data-k="yadi" data-no="27" data-d="레드에서 블루로 번지는, 브랜드 컬러 그대로의 다이얼." data-n="YADI">YADI</button><button class="" data-k="sunset" data-no="28" data-d="노을처럼 번지는 퍼플과 레드. 저녁의 책상 위." data-n="SUNSET">SUNSET</button><button class="" data-k="cosmic" data-no="29" data-d="보라와 옐로가 만나는 우주빛, 선반 위의 작은 행성." data-n="COSMIC">COSMIC</button><button class="on" data-k="midnight" data-no="32" data-d="깊어진 가을의 무드. 블랙과 실버가 만드는 차분한 균형." data-n="MIDNIGHT">MIDNIGHT</button></div><p class="fdesc" id="fdesc">깊어진 가을의 무드. 블랙과 실버가 만드는 차분한 균형.</p>
 <div class="spec"><div><b>2WAY</b>탁상 · 벽걸이</div><div><b>SILENT</b>무소음 초침</div><div><b>DOME</b>투명 아크릴 돔</div></div>
@@ -411,7 +412,7 @@ footer li{list-style:none;margin-bottom:8px}footer a:hover{color:#fff}
 
 <section class="sec" id="mood"><div class="wrap"><div class="sec-h reveal"><div><span class="eyebrow" style="color:var(--red)">STYLING</span><h2 style="margin-top:10px">우리 집 어디에 둘까요?</h2><p>공간과 순간에 맞춰 골라보세요.</p></div></div>
 <div class="mgrid">
-<a class="mt reveal" href="#shop" data-f="clock"><img src="clock_midnight.jpg" alt="" loading="lazy" style="object-position:center 60%"><span class="eyebrow">DESK</span><h3>책상 위</h3><p>오늘의 집중을 위한 한 조각</p></a>
+<a class="mt reveal" href="#shop" data-f="clock"><img src="pro_midnight.jpg" alt="" loading="lazy" style="object-position:center 60%"><span class="eyebrow">DESK</span><h3>책상 위</h3><p>오늘의 집중을 위한 한 조각</p></a>
 <a class="mt reveal" href="#shop" data-f="cushion"><img src="cushion.jpg" alt="" loading="lazy"><span class="eyebrow">SOFA</span><h3>소파 위</h3><p>붉은 소파 위 은빛 포인트</p></a>
 <a class="mt reveal" href="#shop" data-f="vase"><img src="ez1.jpg" alt="" loading="lazy"><span class="eyebrow">SHELF</span><h3>선반 위</h3><p>화병 하나로 바뀌는 분위기</p></a>
 <a class="mt reveal" href="#shop" data-f="incense"><img src="shell.jpg" alt="" loading="lazy"><span class="eyebrow">GIFT</span><h3>집들이 선물</h3><p>25,000원부터 부담 없이</p></a>
@@ -436,11 +437,11 @@ footer li{list-style:none;margin-bottom:8px}footer a:hover{color:#fff}
 <div class="vals"><div class="val"><i>01</i><div><b>실버와 컬러</b><span>차가운 금속빛 위에 YADI 레드와 블루를 한 방울.</span></div></div><div class="val"><i>02</i><div><b>가구가 아니라 오브제</b><span>크게 바꾸지 않아도 분위기는 충분히 달라져요.</span></div></div><div class="val"><i>03</i><div><b>하나의 조각, 새로운 무드</b><span>시계, 화병, 쿠션, 향꽂이로 완성하는 나만의 공간.</span></div></div></div>
 <a class="btn btn-dk" href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener">인스타그램에서 더 보기 →</a></div></div></section>
 
-<section class="band reveal" aria-label="YADI"><div class="bt"><span>IN ORDER</span><i></i><span>A PULSE OF FREEDOM</span><i></i><span>IN ORDER</span><i></i><span>A PULSE OF FREEDOM</span></div></section>
+<section class="band reveal" aria-label="YADI"><div class="bt"><img src="logo_full.png" alt="YADI" loading="lazy"><i></i><img src="logo_full.png" alt="YADI" loading="lazy"><i></i><img src="logo_full.png" alt="YADI" loading="lazy"><i></i><img src="logo_full.png" alt="YADI" loading="lazy"><i></i><img src="logo_full.png" alt="YADI" loading="lazy"><i></i><img src="logo_full.png" alt="YADI" loading="lazy"><i></i></div></section>
 
 <section class="sec" id="poster"><div class="wrap"><div class="sec-h reveal"><div><span class="eyebrow" style="color:var(--red)">YADI POSTER</span><h2 style="margin-top:10px">벽에 붙이고 싶은 무드</h2><p>YADI의 색과 문장을 담은 포스터 시리즈</p></div></div>
 <div class="pw">
-<div class="po po-red reveal"><div class="t"><span>YADI</span><span>NO.01</span></div><div class="big">YADI</div><div class="s">IN ORDER, A PULSE OF FREEDOM</div></div>
+<div class="po po-red reveal"><div class="t"><span></span><span>NO.01</span></div><img class="plogo" src="logo_fullW.png" alt="YADI" loading="lazy"><div class="s"></div></div>
 <div class="po po-sky reveal"><div class="t"><span>YADI</span><span>NO.02</span></div><div class="big">공간을 완성하는<br>마지막 조각</div><div class="s">www.yadi.co.kr</div></div>
 <div class="po po-photo reveal"><img class="bg" src="ez1.jpg" alt="" loading="lazy"><div class="t"><span>YADI</span><span>NO.03</span></div><div class="big">THE ORCHID</div><div class="s">조용한 존재감</div></div>
 <div class="po po-navy reveal"><div class="t"><span>YADI</span><span>NO.04</span></div><div class="big">MID<br>NIGHT</div><div class="s">BLACK <span class="dot"></span> SILVER</div></div>
@@ -449,13 +450,13 @@ footer li{list-style:none;margin-bottom:8px}footer a:hover{color:#fff}
 </div></div></section>
 
 <section class="sec ig"><div class="wrap"><div class="reveal"><span class="eyebrow">INSTAGRAM</span><h2>@yadi.official_01</h2><p>매주 새로운 무드와 릴스를 인스타그램에서 먼저 만나보세요. 팔로우하면 신상 소식도 가장 먼저 알려드려요.</p><a class="btn btn-red" href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener" data-track="ig_follow">팔로우하기 →</a></div>
-<div class="igg reveal"><a href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener"><img src="clock_midnight.jpg" alt="" loading="lazy"></a><a href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener"><img src="cushion.jpg" alt="" loading="lazy"></a><a href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener"><img src="shell.jpg" alt="" loading="lazy"></a><a href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener"><img src="clock_sunset.jpg" alt="" loading="lazy"></a><a href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener"><img src="clock_cosmic.jpg" alt="" loading="lazy"></a><a href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener"><img src="clock_order.jpg" alt="" loading="lazy"></a></div></div></section>
+<div class="igg reveal"><a href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener"><img src="pro_midnight.jpg" alt="" loading="lazy"></a><a href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener"><img src="cushion.jpg" alt="" loading="lazy"></a><a href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener"><img src="shell.jpg" alt="" loading="lazy"></a><a href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener"><img src="pro_sunset.jpg" alt="" loading="lazy"></a><a href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener"><img src="pro_cosmic.jpg" alt="" loading="lazy"></a><a href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener"><img src="pro_order.jpg" alt="" loading="lazy"></a></div></div></section>
 
 <section class="sec"><div class="wrap"><div class="trust reveal"><div class="tr"><i>5,000</i><b>웰컴 쿠폰</b><span>공식몰 신규 가입 시 바로 사용</span></div><div class="tr"><i>1–3</i><b>일 안에 배송</b><span>공식몰 택배 기준</span></div><div class="tr"><i>3</i><b>곳의 공식 판매처</b><span>공식몰 · 스마트스토어 · 오늘의집</span></div><div class="tr"><i>10–17</i><b>고객센터 운영</b><span>070-7019-5477</span></div></div></div></section>
 
 <section class="sec" style="padding-top:20px" id="faq"><div class="wrap"><div class="sec-h reveal" style="justify-content:center;text-align:center"><div><span class="eyebrow" style="color:var(--red)">FAQ</span><h2 style="margin-top:10px">자주 묻는 질문</h2></div></div><div class="faq reveal"><div class="fq"><button>어디서 구매할 수 있나요?</button><div class="a"><p>YADI 공식몰, 네이버 스마트스토어, 오늘의집 3곳에서 만나보실 수 있어요. 공식몰은 신규 가입 시 5,000원 쿠폰을 드려요.</p></div></div><div class="fq"><button>스페이스 타임 시계는 벽에도 걸 수 있나요?</button><div class="a"><p>네, 2WAY 구조라서 책상이나 선반 위에 세워두셔도 되고 벽에 걸어도 돼요. 어떤 공간이든 원하는 방식으로 쓰시면 됩니다.</p></div></div><div class="fq"><button>시계에서 소리가 나나요?</button><div class="a"><p>초침 소리가 거의 없는 무소음 타입이에요. 책상 위나 침실에 두어도 조용합니다.</p></div></div><div class="fq"><button>소프트 렐릭 쿠션은 얼마나 큰가요?</button><div class="a"><p>가로 25cm, 세로 35cm 크기의 작은 포인트 쿠션이에요. 소파나 침대 위에 살짝 올려두기 좋은 사이즈입니다.</p></div></div><div class="fq"><button>배송은 얼마나 걸리나요?</button><div class="a"><p>공식몰 기준 택배로 1~3일 정도 걸려요. 입금 확인 후 발송되며, 산간·도서 지역은 추가 배송비가 있을 수 있어요.</p></div></div><div class="fq"><button>문의는 어디로 하면 되나요?</button><div class="a"><p>고객센터 070-7019-5477 (평일 10:00~17:00) 또는 jeneesh@cottiny.com 으로 연락 주세요. 인스타그램 DM으로도 편하게 물어보셔도 돼요.</p></div></div></div></div></section>
 </main>
-<footer><div class="wrap"><div class="ft"><div><div class="fl">YADI</div><div class="tg">IN ORDER, A PULSE OF FREEDOM</div><p>당신의 공간에 작은 울림을 더합니다.<br>A small pulse for your space.</p></div>
+<footer><div class="wrap"><div class="ft"><div><img class="flogo" src="logo_fullW.png" alt="YADI In order, a pulse of freedom" loading="lazy"><p>당신의 공간에 작은 울림을 더합니다.<br>A small pulse for your space.</p></div>
 <div><h4>SHOP</h4><ul><li><a href="https://www.yadi.co.kr/?utm_source=instagram&utm_medium=bio&utm_campaign=yadi_landing" target="_blank" rel="noopener">YADI 공식몰</a></li><li><a href="https://naver.me/5huDnoLU" target="_blank" rel="noopener">네이버 스마트스토어</a></li><li><a href="https://ozip.me/drGWsXr" target="_blank" rel="noopener">오늘의집</a></li></ul></div>
 <div><h4>FOLLOW &amp; HELP</h4><ul><li><a href="https://www.instagram.com/yadi.official_01/" target="_blank" rel="noopener">Instagram @yadi.official_01</a></li><li>고객센터 070-7019-5477</li><li>평일 AM 10:00 - PM 5:00</li><li>jeneesh@cottiny.com</li></ul></div></div>
 <div class="biz">상호명 주식회사 더투스파이스 · 대표자 배정환 · 사업자등록번호 196-81-02730 · 통신판매업 신고번호 제2024-서울성동-0221<br>사업장 주소 서울특별시 성동구 사근동 169 한성빌라 101호 · 대표전화 070-7019-5477<br>© YADI. All rights reserved.</div></div></footer>
